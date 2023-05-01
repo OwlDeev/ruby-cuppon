@@ -1,0 +1,224 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.imgLogo{
+    width: 100px;
+}
+
+.rowCupones{
+    margin: 0px !important;
+}
+
+.colCupones{
+    padding: 0px !important;
+}
+
+.itemInvisible{
+    width: 900px;
+}
+
+li a{
+    color: white !important;
+}
+
+nav{
+    background-color: #28A745 !important;
+}
+
+.colorWhite{
+    border-color: white !important;
+    color: aliceblue !important
+}
+
+.titleCard{
+    text-align: left;
+    font-size: 20px;
+}
+
+.descriptionCard{
+    text-align: left;
+    font-size: 16px;
+}
+
+.pCard{
+    margin-bottom: 0px;
+    color: #707070;
+}
+.card-title .titleCard{
+    color: #212529;
+}
+
+.lineaSeparadora{
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.251);
+    width: 90%;
+    margin: 20px;
+}
+
+.divPrecios{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.precioAntes{
+    color: #707070;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.precioDespues{
+    color: #28A745;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.divMainCard{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin-bottom: 50px;
+}
+
+.cardMain{
+    margin-top: 50px;
+}
+
+.recibeCupones{
+    background-color: #28A745;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 261px;
+    width: 100%;
+}
+
+.inputText{
+    width: 80%;
+}
+
+.buttonEnviar{
+    width: 40%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+}
+
+.textFooter{
+    font-size: 16px;
+    color: #707070;
+    text-align: center;
+}
+
+/* Estilos para celulares */
+@media only screen and (max-width: 600px) {
+    .imgLogo{
+        width: 100px;
+    }
+    
+    nav{
+        background-color: #28A745 !important;
+    }
+    
+    .colorWhite{
+        border-color: white !important;
+        color: aliceblue !important
+    }
+    
+    .titleCard{
+        text-align: left;
+        font-size: 20px;
+    }
+    
+    .descriptionCard{
+        text-align: left;
+        font-size: 16px;
+    }
+    
+    .pCard{
+        margin-bottom: 0px;
+        color: #707070;
+    }
+    .card-title .titleCard{
+        color: #212529;
+    }
+    
+    .lineaSeparadora{
+        height: 1px;
+        background-color: rgba(0, 0, 0, 0.251);
+        width: 90%;
+        margin: 20px;
+    }
+    
+    .divPrecios{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: center;
+    }
+    
+    .precioAntes{
+        color: #707070;
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    
+    .precioDespues{
+        color: #28A745;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .divMainCard{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cardMain{
+        margin-top: 50px;
+    }
+    
+    .recibeCupones{
+        background-color: #28A745;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 261px;
+        width: 100%;
+    }
+    
+    .inputText{
+        width: 80%;
+    }
+    
+    .buttonEnviar{
+        width: 40%;
+    }
+    
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 150px;
+    }
+    
+    .textFooter{
+        font-size: 16px;
+        color: #707070;
+        text-align: center;
+    }
+}
